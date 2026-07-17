@@ -231,11 +231,30 @@ opacity:1;
 @media (min-width:769px) and (max-width:1024px){
 
     .title{
-        top:27%;
+        top:18%;
+    }
+
+    .title h1{
+        font-size:56px;
+    }
+
+    .subtitle{
+        font-size:18px;
+        letter-spacing:3px;
     }
 
     .envelope{
-        width:70vw;
+        width:78vw;
+    }
+
+    .seal{
+        width:150px;
+        bottom:35%;
+    }
+
+    .tap{
+        font-size:16px;
+        bottom:20%;
     }
 
 }
