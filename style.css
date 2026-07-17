@@ -235,11 +235,11 @@ opacity:1;
     }
 
     .title h1{
-        font-size:56px;
+        font-size:65px;
     }
 
     .subtitle{
-        font-size:18px;
+        font-size:20px;
         letter-spacing:3px;
     }
 
@@ -248,8 +248,8 @@ opacity:1;
     }
 
     .seal{
-        width:150px;
-        bottom:35%;
+        width:200px;
+        bottom:36%;
     }
 
     .tap{
