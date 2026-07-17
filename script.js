@@ -1,8 +1,7 @@
-const seal = document.getElementById("seal");
+const sealButton = document.getElementById("seal");
 
-seal.addEventListener("click", () => {
+sealButton.addEventListener("click", () => {
 
-    // Next step:
     // Open the envelope
 
 });

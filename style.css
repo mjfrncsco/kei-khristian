@@ -123,25 +123,47 @@ body{
     animation:float 5s ease-in-out infinite;
 }
 
-.seal{
+.seal-button{
     position:absolute;
-
-    width:clamp(120px,19vw,210px);
 
     left:50%;
     top:56%;
 
     transform:translate(-50%, -50%);
 
-    z-index:10;
+    background:none;
+    border:none;
+    padding:0;
 
     cursor:pointer;
+
+    z-index:10;
+
+    -webkit-tap-highlight-color:transparent;
+    appearance:none;
+}
+
+.seal{
+    display:block;
+
+    width:clamp(120px,19vw,210px);
+
+    user-select:none;
+    pointer-events:none;
 
     transition:transform .25s ease;
 }
 
-.seal:hover{
-    transform:translate(-50%, -50%) scale(1.06);
+.seal-button:hover .seal{
+    transform:scale(1.06);
+}
+
+.seal-button:active .seal{
+    transform:scale(.97);
+}
+
+.seal-button:focus{
+    outline:none;
 }
 
 .tap{
@@ -246,17 +268,17 @@ opacity:1;
 @media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
 
     .title{
-        top: 20%;
+        top: 25%;
         width: 90%;
     }
 
     .subtitle{
-        font-size: 20px;
+        font-size: 23px;
         letter-spacing: 3px;
     }
 
     .title h1{
-        font-size: 68px;
+        font-size: 76px;
     }
 
     .envelope{
@@ -264,7 +286,7 @@ opacity:1;
     }
 
     .seal{
-        width: 180px;
+        width: 200px;
         bottom: 35%;
     }
 
