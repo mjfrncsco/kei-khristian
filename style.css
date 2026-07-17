@@ -199,7 +199,7 @@ opacity:1;
 @media (max-width:768px){
 
     .title{
-        top:11%;
+        top:20%;
     }
 
     .title h1{
@@ -221,7 +221,7 @@ opacity:1;
     }
 
     .tap{
-        bottom:18%;
+        bottom:20%;
         font-size:14px;
         letter-spacing:2px;
     }
