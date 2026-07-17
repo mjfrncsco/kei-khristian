@@ -265,37 +265,10 @@ opacity:1;
    Xiaomi Pad • iPad • Samsung
    =========================== */
 
-@media screen and (min-width:768px) and (max-width:1300px) and (orientation:portrait){
-
-    .title{
-        top: 25%;
-        width: 90%;
+@media screen and (min-width:768px) and (max-width:1300px){
+    body{
+        background:red!important;
     }
-
-    .subtitle{
-        font-size: 23px;
-        letter-spacing: 3px;
-    }
-
-    .title h1{
-        font-size: 76px;
-    }
-
-    .envelope{
-        width: 84vw;
-    }
-
-    .seal{
-        width: 200px;
-        bottom: 35%;
-    }
-
-    .tap{
-        bottom: 20%;
-        font-size: 18px;
-        letter-spacing: 3px;
-    }
-
 }
 
 
