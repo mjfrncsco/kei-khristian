@@ -224,7 +224,7 @@ opacity:1;
    MOBILE (Android & iPhone)
    =========================== */
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 599px){
 
     .title{
         top: 22%;
@@ -265,10 +265,35 @@ opacity:1;
    Xiaomi Pad • iPad • Samsung
    =========================== */
 
-@media screen and (max-width:2000px){
+/* Tablet Portrait */
+@media screen and (min-width:600px) and (max-width:900px) and (orientation:portrait){
 
-    .background{
-        background:red!important;
+    .title{
+        top:25%;
+        width:90%;
+    }
+
+    .subtitle{
+        font-size:23px;
+        letter-spacing:3px;
+    }
+
+    .title h1{
+        font-size:76px;
+    }
+
+    .envelope{
+        width:84vw;
+    }
+
+    .seal{
+        width:200px;
+    }
+
+    .tap{
+        bottom:20%;
+        font-size:18px;
+        letter-spacing:3px;
     }
 
 }
